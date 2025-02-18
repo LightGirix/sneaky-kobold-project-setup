@@ -3,7 +3,11 @@ Here's how to setup your EclipseIDE before pulling from [this project link](http
 (I'll change this later once the project is complete!)
 
 ## Here's what you're gonna have to do
-1. You'll have to download `jdk-21` and `javafx-sdk-21.0.6` (which you can download the files from here).
+1. You'll have to download `jdk-21` and `javafx-sdk-21.0.6` (which you can download the files from the hyperlink below).
+
+> [jdk-21](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip) <br>
+> [javafx-sdk-21.0.6](https://download2.gluonhq.com/openjfx/21.0.6/openjfx-21.0.6_windows-x64_bin-sdk.zip)
+
 2. Move them to somewhere you wouldn't have trouble navigating, I recommened moving both to `C:\Program Files\Java` or wherever your Java folder is located. (You'll have to allow it using admin's permission, otherwise use another folder)
 3. Open Eclipse, navigate to: Window > Preferences > Java > Installed JREs > Add
 4. Add both `jdk-21` and all files in `javafx-sdk-21.0.6\lib` to the `Standard VM` jre type.
