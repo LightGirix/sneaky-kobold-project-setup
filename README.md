@@ -14,6 +14,6 @@ Here's how to setup your EclipseIDE before pulling from [this project link](http
 5. Name the new jre `jdk-21-with-fx` (If you use other names, Eclipse won't be able to find it from `.classpath`).
 6. Add the VM argument. If your `javafx-sdk-21.0.6` is in `C:\Program Files\Java` you can copy this line:
 
-> -module-path "C:\Program Files\Java\javafx-sdk-21.0.6\lib" --add-modules javafx.controls,javafx.fxml
+> --module-path "C:\Program Files\Java\javafx-sdk-21.0.6\lib" --add-modules javafx.controls,javafx.fxml
  
 Otherwise, replace the `"C:\Program Files\Java\javafx-sdk-21.0.6\lib"` with your javafx path.
